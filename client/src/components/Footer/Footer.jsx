@@ -14,7 +14,7 @@ const Footer = () => {
   const sendMail = (event) => {
     event.preventDefault(); // Prevent default form submission behavior
     if(recipient_email){
-      axios.post('http://localhost:5000/subscribe', {
+      axios.post('https://puzzle-africa-s-website-react-version.vercel.app/subscribe', {
         recipient_email
       }).then(() => {
         toast.success("Successfully Subscribed");
