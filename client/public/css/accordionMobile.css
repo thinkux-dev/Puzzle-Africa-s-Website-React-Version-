@@ -1,0 +1,580 @@
+/* Navigation */
+@media screen and (max-width: 640px) {
+  #main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 70px;
+    margin-right: -2rem;
+  }
+
+  #main-nav .contain {
+    display: block;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* here's the navbar link styling */
+  #main-nav .nav_links{
+    display:block;
+    text-align: left;
+    float:right;
+    margin-left: 30px;
+    position: fixed;
+    height: 150vh; /* Remove minus to reset normal*/
+    width: 80%;
+    background: #f5f8ff;
+    top: 5%;
+    transform: translateY(-100%);
+    right: 100%;
+    text-align: center;
+    color: var(--primary-color-dark);
+    transition: all 0.5s ;
+  }
+
+  #main-nav .nav_links li{
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  #main-nav .nav_links li a{
+    font-size: 20px;
+    
+  }
+
+  #main-nav .launch_business {
+    display: none;
+    float: left;
+    margin-top: 10px;
+  }
+
+  #main-nav .nav_logo {
+    float: left;
+    max-width: 140px;
+  }
+
+  #main-nav .contain .Menu-bar {
+    width: 30px;
+    display: block;
+    float: right;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  #main-nav .contain .cancel{
+    font-size: 30px;
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+    display: none;
+  }
+
+  #main-nav #check {
+    display: none;
+    float: right;
+    margin-top: 10px;
+  }
+
+  #main-nav label {
+    display: none;
+  }
+
+  #main-nav .contain label {
+    display: block;
+    float: right;
+    margin-left: 10px;
+  }
+
+  #check:checked ~ .nav_links{
+    transform: translateX(100%);
+  }
+
+  #check:checked ~ label .Menu-bar{
+    display: none;
+  }
+
+  #check:checked ~ label .cancel{
+    display: block;
+  }
+
+  /* accordion */
+  .container {
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .container h1 {
+    font-size: 24px; /* Adjust font size */
+  }
+  
+  .container .tab label h2 {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .container .tab label h3 {
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .container .tab .content p {
+    font-size: 14px; /* Adjust font size */
+  }
+}
+
+/* Samsung Galaxy S8+ */
+@media screen and (min-width: 360px) and (max-width: 360px) {
+  #main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 70px;
+    margin-right: -2rem;
+  }
+
+  #main-nav .contain {
+    display: block;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* here's the navbar link styling */
+  #main-nav .nav_links{
+    display:block;
+    text-align: left;
+    float:right;
+    margin-left: 30px;
+    position: fixed;
+    height: 150vh; /* Remove minus to reset normal*/
+    width: 80%;
+    background: #f5f8ff;
+    top: 9%;
+    transform: translateY(-100%);
+    right: 100%;
+    text-align: center;
+    color: var(--primary-color-dark);
+    transition: all 0.5s ;
+  }
+
+  #main-nav .nav_links li{
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  #main-nav .nav_links li a{
+    font-size: 20px;
+    white-space: nowrap;
+  }
+
+  #main-nav .launch_business {
+    display: none;
+    float: left;
+    margin-top: 10px;
+  }
+
+  #main-nav .nav_logo {
+    float: left;
+    max-width: 140px;
+  }
+
+  #main-nav .contain .Menu-bar {
+    width: 30px;
+    display: block;
+    float: right;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  #main-nav .contain .cancel{
+    font-size: 30px;
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+    display: none;
+  }
+
+  #main-nav #check {
+    display: none;
+    float: right;
+    margin-top: 10px;
+  }
+
+  #main-nav label {
+    display: none;
+  }
+
+  #main-nav .contain label {
+    display: block;
+    float: right;
+    margin-left: 10px;
+  }
+
+  #check:checked ~ .nav_links{
+    transform: translateX(100%);
+  }
+
+  #check:checked ~ label .Menu-bar{
+    display: none;
+  }
+
+  #check:checked ~ label .cancel{
+    display: block;
+  }
+
+  /* accordion */
+  .container {
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .container h1 {
+    font-size: 24px; /* Adjust font size */
+    white-space: nowrap;
+  }
+  
+  .container .tab label h2 {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .container .tab label h3 {
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .container .tab .content p {
+    font-size: 14px; /* Adjust font size */
+  }
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media screen and (min-width: 412px) and (max-width: 412px) {
+  #main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 70px;
+    margin-right: -2rem;
+  }
+
+  #main-nav .contain {
+    display: block;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* here's the navbar link styling */
+  #main-nav .nav_links{
+    display:block;
+    text-align: left;
+    float:right;
+    margin-left: 30px;
+    position: fixed;
+    height: 150vh; /* Remove minus to reset normal*/
+    width: 80%;
+    background: #f5f8ff;
+    top: 9%;
+    transform: translateY(-100%);
+    right: 100%;
+    text-align: center;
+    color: var(--primary-color-dark);
+    transition: all 0.5s ;
+  }
+
+  #main-nav .nav_links li{
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  #main-nav .nav_links li a{
+    font-size: 20px;
+    white-space: nowrap;
+  }
+
+  #main-nav .launch_business {
+    display: none;
+    float: left;
+    margin-top: 10px;
+  }
+
+  #main-nav .nav_logo {
+    float: left;
+    max-width: 140px;
+  }
+
+  #main-nav .contain .Menu-bar {
+    width: 30px;
+    display: block;
+    float: right;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  #main-nav .contain .cancel{
+    font-size: 30px;
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+    display: none;
+  }
+
+  #main-nav #check {
+    display: none;
+    float: right;
+    margin-top: 10px;
+  }
+
+  #main-nav label {
+    display: none;
+  }
+
+  #main-nav .contain label {
+    display: block;
+    float: right;
+    margin-left: 10px;
+  }
+
+  #check:checked ~ .nav_links{
+    transform: translateX(100%);
+  }
+
+  #check:checked ~ label .Menu-bar{
+    display: none;
+  }
+
+  #check:checked ~ label .cancel{
+    display: block;
+  }
+
+  /* accordion */
+  .container {
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .container h1 {
+    font-size: 24px; /* Adjust font size */
+    white-space: nowrap;
+  }
+  
+  .container .tab label h2 {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .container .tab label h3 {
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .container .tab .content p {
+    font-size: 14px; /* Adjust font size */
+  }
+}
+
+/* Surface Duo */
+@media screen and (min-width: 540px) and (max-width: 540px){
+  #main-nav{
+    margin-right: -2rem;
+  }
+
+  #main-nav .nav_links{
+    display: block;
+    text-align: left;
+    float: right;
+    margin-left: 30px;
+    position: fixed;
+    height: 150vh;
+    width: 80%;
+    background: #f5f8ff;
+    top: 8%;
+    transform: translateY(-100%);
+    right: 100%;
+    text-align: center;
+    color: var(--primary-color-dark);
+    transition: all 0.5s ;
+  }
+
+  #main-nav .nav_links li{
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  #main-nav .nav_links li a{
+    font-size: 20px;
+    white-space: nowrap;
+  }
+  
+  #main-nav .contain .Menu-bar {
+    width: 30px;
+    display: block;
+    float: right;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  #main-nav .contain .cancel{
+    font-size: 30px;
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+    display: none;
+  }
+
+  /* accordion */
+  .container {
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .container h1 {
+    font-size: 24px; /* Adjust font size */
+    white-space: nowrap;
+  }
+  
+  .container .tab label h2 {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .container .tab label h3 {
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .container .tab .content p {
+    font-size: 14px; /* Adjust font size */
+  }
+}
+
+/* Galaxy Fold */
+@media screen and (min-width: 280px) and (max-width: 280px){
+  .container {
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 0; /* Adjust margin */
+  }
+
+  .container h1 {
+    font-size: 18px; /* Adjust font size */
+    white-space: nowrap;
+  }
+
+  .container .tab label h2 {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  .container .tab label h3 {
+    font-size: 14px; /* Adjust font size */
+  }
+
+  .container .tab .content p {
+    font-size: 12px; /* Adjust font size */
+  }
+  
+  /* Navigation */
+  #main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 70px;
+    margin-right: 0; /* Adjust margin */
+  }
+
+  #main-nav .nav_logo {
+    float: left;
+    max-width: 140px;
+  }
+
+  #main-nav .nav_links {
+    float: right;
+    margin-left: 10px; /* Adjust margin */
+    position: fixed;
+    height: 150vh;
+    width: 90%;
+    background: #f5f8ff;
+    top: 9%;
+    transform: translateY(-100%);
+    right: 100%;
+    text-align: center;
+    color: var(--primary-color-dark);
+    transition: all 0.5s;
+  }
+
+  #main-nav .nav_links li {
+    display: block;
+    margin: 20px 0; /* Adjust margin */
+    line-height: 20px; /* Adjust line height */
+  }
+
+  #main-nav .nav_links li a {
+    font-size: 16px; /* Adjust font size */
+  }
+
+  #main-nav .contain .Menu-bar{
+    font-size: 20px; /* Adjust font size */
+    margin-right: 10px; /* Adjust margin */
+    max-width: 30px;
+  }
+
+  #main-nav .contain .cancel{
+    font-size: 30px; /* Adjust font size */
+    margin-right: 10px; /* Adjust margin */
+  }
+}

@@ -1,0 +1,57 @@
+@media screen and (min-width: 1024px) {
+  #main-nav {
+    margin-right: auto; /* Center the navigation */
+    margin-left: auto; /* Center the navigation */
+    z-index: 2;
+  }
+
+  #main-nav .nav_logo {
+    width: 140px; /* Adjust logo width */
+    margin-left: auto; /* Center the logo */
+    margin-right: auto; /* Center the logo */
+  }
+
+  #main-nav .nav_links li span {
+    font-size: 8px; /* Decrease span font size */
+  }
+
+  #main-nav .nav_links {
+    white-space: nowrap; /* Prevent line breaks */
+    font-size: 16px; /* Adjust font size */
+    gap: 1rem; /* Adjust gap between links */
+    margin-left: auto; /* Center the links */
+    margin-right: auto; /* Center the links */
+  }
+
+  #main-nav .launch_business {
+    width: 140px; /* Adjust launch business width */
+    margin-left: auto; /* Center the launch business */
+    margin-right: auto; /* Center the launch business */
+  }
+}
+
+/* iPad */
+@media screen and (min-width: 768px) and (max-width: 768px){
+  #main-nav {
+    margin-right: 0; /* Remove right margin */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  #main-nav .nav_logo {
+    width: 120px; /* Adjust logo width */
+  }
+
+  #main-nav .nav_links li span {
+    font-size: 10px; /* Adjust span font size */
+  }
+
+  #main-nav .nav_links {
+    font-size: 14px; /* Adjust font size */
+    gap: 0.5rem; /* Adjust gap between links */
+    white-space: nowrap;
+  }
+
+  #main-nav .launch_business {
+    width: 120px; /* Adjust launch business width */
+  }
+}

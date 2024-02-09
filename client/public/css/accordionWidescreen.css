@@ -1,0 +1,117 @@
+@media screen and (min-width: 1024px) {
+  #main-nav {
+    margin-right: auto; /* Center the navigation */
+    margin-left: auto; /* Center the navigation */
+    z-index: 2;
+  }
+
+  #main-nav .nav_logo {
+    width: 140px; /* Adjust logo width */
+    margin-left: auto; /* Center the logo */
+    margin-right: auto; /* Center the logo */
+  }
+
+  #main-nav .nav_links li span {
+    font-size: 8px; /* Decrease span font size */
+  }
+
+  #main-nav .nav_links {
+    white-space: nowrap; /* Prevent line breaks */
+    font-size: 16px; /* Adjust font size */
+    gap: 1rem; /* Adjust gap between links */
+    margin-left: auto; /* Center the links */
+    margin-right: auto; /* Center the links */
+  }
+
+  #main-nav .launch_business {
+    width: 140px; /* Adjust launch business width */
+    margin-left: auto; /* Center the launch business */
+    margin-right: auto; /* Center the launch business */
+  }
+
+  /* Accordion */
+  .container {
+    margin: 0 auto; /* Center the container */
+    max-width: 800px; /* Adjust max-width as needed */
+    padding: 0 20px; /* Add some padding */
+  }
+
+  .container h1 {
+    font-size: 28px; /* Increase font size */
+    text-align: center; /* Center align the heading */
+  }
+
+  .container .tab {
+    margin-bottom: 20px; /* Add some bottom margin */
+  }
+
+  .container .tab label h2 {
+    font-size: 20px; /* Increase font size */
+  }
+
+  .container .tab label h3 {
+    font-size: 18px; /* Increase font size */
+  }
+
+  .container .tab .content p {
+    font-size: 16px; /* Increase font size */
+  }
+}
+
+/* iPad */
+@media screen and (min-width: 768px) and (max-width: 768px){
+  #main-nav {
+    margin-right: 0; /* Remove right margin */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  #main-nav .nav_logo {
+    width: 120px; /* Adjust logo width */
+  }
+
+  #main-nav .nav_links li span {
+    font-size: 10px; /* Adjust span font size */
+  }
+
+  #main-nav .nav_links {
+    font-size: 14px; /* Adjust font size */
+    gap: 0.5rem; /* Adjust gap between links */
+    white-space: nowrap;
+  }
+
+  #main-nav .launch_business {
+    width: 120px; /* Adjust launch business width */
+  }
+
+  /* accordion */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the container */
+    align-items: center; /* Horizontally center the container */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-right: -1rem;
+    max-width: 90%; /* Adjust max-width to fill most of the screen */
+    padding: 0 10px; /* Add some padding */
+  }
+
+  .container h1 {
+    font-size: 22px; /* Decrease font size for smaller screens */
+  }
+
+  .container .tab {
+    margin-bottom: 15px; /* Reduce bottom margin for smaller screens */
+  }
+
+  .container .tab label h2 {
+    font-size: 16px; /* Decrease font size for smaller screens */
+  }
+
+  .container .tab label h3 {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  .container .tab .content p {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+}

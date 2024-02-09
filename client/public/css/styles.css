@@ -1,0 +1,677 @@
+:root{
+  --primary-color: #6F00B4;
+  --primary-color-dark: #000000;
+  --secondary-color: #FDD400;
+  --border-color-orange: #FFEC8A;
+  --border-color-light-purple: #EFD4FF;
+  --border-color-grey: #F5F5F5;
+  --max-width: 1350px;
+  --white: #ffffff;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'General Sans', sans-serif;
+  /* line-height: 1.5; */
+  background-color: var(--white);
+}
+
+/* Utility */
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* Navigation */
+#main-nav{
+  background: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#main-nav .container{
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  padding: 1rem;
+  align-items: center;
+}
+
+#main-nav .container .Menu-bar{
+  width: 100%;
+  max-width: 50px;
+  display: none;
+}
+
+#main-nav .container label, #check{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+#main-nav .nav_logo{
+  width: 180px;
+}
+
+#main-nav .nav_links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: .55rem;
+  line-height: 1.3;
+  gap: 2rem;
+}
+
+#main-nav .nav_links li{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+#main-nav .nav_links li a {
+  padding: 0.75rem;
+  color: var(--primary-color-dark);
+  font-weight: regular;
+  position: relative;
+}
+
+#main-nav .nav_links li a:hover {
+  color: var(--primary-color)
+}
+
+#main-nav .nav_links li span {
+  color: var(--border-color-light-purple);
+  font-size: 10.3px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+#main-nav .nav_links li span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  white-space: nowrap;
+}
+
+#main-nav .nav_logo,
+#main-nav .launch_business {
+  cursor: pointer;
+}
+
+#main-nav .launch_business{
+  width: 230px;
+}
+
+/* Content */
+section.container {
+  padding: 1rem 0; /* Adjust the padding as needed */
+  text-align: center;
+}
+
+.content_container {
+  /* max-width: var(--max-width); */
+  margin: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* z-index: 1; */
+}
+
+.content_container h1  {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0.1rem;
+}
+
+.content_container h1 .heading_1{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.content_container h3 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.content_container .business_community{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.content_container .business_community img {
+  width: 100%;
+  max-width: 250px;
+  /* margin-top: 2rem; */
+  padding: 0.5rem;
+  margin-bottom: 2rem; /* Add margin between images */
+}
+
+.youtube_container {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto; /* Center the image horizontally */
+  margin-top: 14rem;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 5rem;
+  margin-top: -1rem;
+  margin-left: 23rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.business_tools.flex-container {
+  display: flex;
+  justify-content: center;
+  background: var(--border-color-light-purple);
+  padding: 1.5rem 0;
+}
+
+.business_puzzle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.business_puzzle h2 {
+  margin-bottom: 1rem; /* Adjust the margin as needed */
+  text-align: left;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.business_puzzle img {
+  margin-top: 1rem;
+  width: 100%; /* Make sure the image takes up the available space */
+  max-width: 500px;
+}
+
+.business_puzzle .business{
+  font-weight: bold;
+}
+
+.business_puzzle .puzzle{
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.container .section_container{
+  margin: auto;
+  align-items: center;
+}
+
+.container .section_container h1{
+  margin-bottom: 1rem; /* Adjust the margin as needed */
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.3;
+  margin-top: 2rem;
+}
+
+.container .section_container h2{
+  margin-bottom: 0rem;
+}
+
+.container .section_container span{
+  font-weight: bold;
+}
+
+.container .launch_grow_manage{
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.container .launch_grow_manage .launch{
+  background: var(--border-color-light-purple);
+  width: 100%;
+  max-width: 250px;
+  line-height: 5;
+  border-radius: 10px;
+}
+
+.container .launch_grow_manage .grow{
+  background: var(--border-color-orange);
+  width: 100%;
+  max-width: 250px;
+  line-height: 5;
+  border-radius: 10px;
+}
+
+.container .launch_grow_manage .manage{
+  background: var(--border-color-grey);
+  width: 100%;
+  max-width: 250px;
+  line-height: 5;
+  border-radius: 10px;
+}
+
+.container .section_container .business{
+  margin-bottom: 3rem;
+}
+
+.section_container .your_business_mobile img{
+  display: none;
+}
+
+.container .section_container .span_business{
+  color: var(--primary-color);
+}
+
+.container .section_container .your_business{
+  width: 100%;
+  max-width: 1300px;
+}
+
+/* Track Sales */
+.track_sales{
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+  align-items: center;
+}
+
+.track_sales .leftside h1{
+  margin-top: 1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.track_sales .leftside h1 span{
+  color: var(--primary-color);
+}
+
+.track_sales .leftside .puzzle_values{
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.track_sales .leftside .puzzle_values .values{
+  padding-bottom: 1rem;
+}
+
+.track_sales .leftside .puzzle_values .checkIcon{
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  padding-right: 1rem;
+}
+
+.track_sales .leftside .waitlist{
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.track_sales .leftside .waitlist li a{
+  text-decoration: underline;
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.track_sales .leftside .waitlist li a:hover{
+  font-weight: 500;
+}
+
+.join_now{
+  padding-top: 10px;
+ /* line-height: 2; */
+}
+
+.track_sales .leftside .waitlist .coming_soon{
+  background: var(--border-color-orange);
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+.track_sales img{
+  width: 100%;
+  max-width: 660px;
+  margin-top: 10rem;
+}
+
+/* Business Education */
+.Business_Education{
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+  align-items: center;
+}
+
+.Business_Education_mobile{
+  display: none;
+}
+
+.Business_Education img{
+  width: 100%;
+  max-width: 750px;
+  margin-top: 8rem;
+}
+
+.Business_Education .leftside{
+  margin-right: 0.2rem;
+}
+
+.Business_Education .leftside h1{
+  text-align: left;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.Business_Education .leftside h1 span{
+  color: var(--primary-color);
+}
+
+.Business_Education .leftside .Start_Learning{
+  list-style: none;
+  padding-top: 0.5rem;
+  text-align: left;
+}
+
+.Business_Education .leftside p{
+  text-align: left;
+}
+
+.Business_Education .leftside .Start_Learning li a{
+  text-decoration: underline;
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.Business_Education .leftside .Start_Learning li a:hover{
+  font-weight: 500;
+}
+
+/* Register Business Section */
+.Business_Registration{
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+  align-items: center;
+}
+
+.Business_Registration .leftside .Registrations{
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.Business_Registration .leftside .Registrations .checkIcon{
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  padding-right: 1rem;
+}
+
+.Business_Registration img{
+  width: 100%;
+  max-width: 750px;
+  margin-top: 8rem;
+}
+
+.Business_Registration .leftside .Start_Learning{
+  list-style: none;
+  padding-top: 0.5rem;
+  text-align: left;
+}
+
+.Business_Registration .leftside{
+  margin-right: 0.2rem;
+}
+
+.Business_Registration .leftside h1{
+  text-align: left;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.Business_Registration .leftside h1 span{
+  color: var(--primary-color);
+}
+
+.Business_Registration .leftside .Start_Learning li a{
+  text-decoration: underline;
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.Business_Registration .leftside .Start_Learning li a:hover{
+  font-weight: 500;
+}
+
+.Business_Registration .leftside .Registrations{
+  list-style: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.Business_Registration .leftside .Registrations .types{
+  padding-bottom: 1rem;
+}
+
+/* Power With Puzzle */
+.Power_With_Puzzle{
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+}
+
+.service_partners{
+  margin-top: 5rem;
+}
+
+.service_partners h1{
+  text-align: center;
+  background: var(--primary-color);
+  padding: 1rem;
+  color: white;
+  font-weight: 700;
+}
+
+.service_partners h1 span{
+  color: var(--secondary-color);
+}
+
+.service_partners .companies{
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.service_partners .companies img{
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 6rem;
+}
+
+/* Get Started */
+.Start_Business{
+  margin: auto;
+  background: var(--border-color-light-purple);
+  width: 70%;
+  border-radius: 10px;
+  margin-bottom: 6rem;
+  padding: 10px;
+}
+
+.Get_Started{
+  margin-top: 2rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.Get_Started h1{
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.Get_Started img{
+  width: 100%;
+  max-width: 230px;
+}
+
+/* Footer */
+#main-footer{
+  background: var(--primary-color);
+  color: var(--white);
+  padding: 130px;
+  font-weight: 200;
+}
+
+#main-footer .grid_container{
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-gap: 8rem;
+  margin-top: -50px;
+}
+
+.moblie_flex_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10rem;
+  white-space: nowrap;
+  margin-right: -30rem;
+}
+
+.moblie_flex_container .privacy a{
+  list-style: none;
+  color: var(--white);
+}
+.moblie_flex_container .FAQ a{
+  list-style: none;
+  color: var(--white);
+}
+.moblie_flex_container .about a{
+  list-style: none;
+  color: var(--white);
+}
+.moblie_flex_container .IG a{
+  list-style: none;
+  color: var(--white);
+}
+
+#main-footer .grid_container .whitelogo{
+  margin-top: 2.5rem;
+  width: 200px;
+}
+
+#main-footer .grid_container li{
+  list-style: none;
+  padding-bottom: 1rem;
+  /* font-weight: 400; */
+  font-size: 16.7px;
+  /* letter-spacing: -0.17px; */
+  margin-right: -10px;
+}
+
+#main-footer .grid_container .list_header{
+  padding-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.subscribe-input {
+  display: flex;
+  align-items: center;
+  /* margin-top: -5.5rem; */
+}
+.subscribe-input .Sub {
+  margin-bottom: -5px;
+}
+
+.subscribe-input input {
+  border: 1px solid #FFD400;
+  padding: 8px;
+  width: 200px;
+  font-size: 16px;
+  height: 2.5rem;
+  border-radius: 10px;
+  margin-right: 8px;
+  background: var(--border-color-light-purple);
+}
+
+.subscribe-input input:focus {
+  border-color: #FFD400;
+}
+
+.subscribe-input button {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: #FFEC8A 1s ease-in-out;
+}
+
+/* Hover effect for the button */
+.subscribe-input button:hover {
+  transform: scale(1.1); /* Increase the size on hover */
+}
+
+/* Horizontal Line */
+.horizontal-line {
+  /* width: 100%; */
+  height: 1px; /* Adjust the thickness of the line as needed */
+  background-color: var(--white); /* Change the color as needed */
+  margin-top: 2rem; /* Adjust the margin as needed */
+  opacity: 0.7;
+}
+
+/* Copyright&social-media */
+.bottom-footer-elements{
+  display: flex;
+  gap: 55rem;
+  padding-top: 3rem;
+  margin-bottom: -60px;
+}
+
+.bottom-footer-elements .social-media{
+  display: flex;
+  gap: 3rem;
+}
+
+.bottom-footer-elements .social-media img{
+  /* width: 100%; */
+  max-width: 31px;
+  background: var(--white);
+  padding: 7.5px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.bottom-footer-elements .social-media img:hover {
+  background: var(--border-color-light-purple); /* Change background color on hover */
+}

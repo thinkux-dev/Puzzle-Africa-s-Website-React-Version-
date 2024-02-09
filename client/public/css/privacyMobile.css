@@ -1,0 +1,110 @@
+/* Navigation */
+@media screen and (max-width: 640px) {
+  #main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 70px;
+    margin-right: -2rem;
+  }
+
+  #main-nav .container {
+    display: block;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* here's the navbar link styling */
+  #main-nav .nav_links{
+    display:block;
+    text-align: left;
+    float:right;
+    margin-left: 30px;
+    position: fixed;
+    height: 150vh; /* Remove minus to reset normal*/
+    width: 80%;
+    background: #fff;
+    top: 5%;
+    transform: translateY(-100%);
+    right: 100%;
+    text-align: center;
+    color: var(--primary-color-dark);
+    transition: all 0.5s ;
+  }
+
+  #main-nav .nav_links li{
+    display: block;
+    margin: 30px 0;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  #main-nav .nav_links li a{
+    font-size: 20px;
+    
+  }
+
+  #main-nav .launch_business {
+    display: none;
+    float: left;
+    margin-top: 10px;
+  }
+
+  #main-nav .nav_logo {
+    float: left;
+    max-width: 140px;
+  }
+
+  #main-nav .container .Menu-bar {
+    width: 30px;
+    display: block;
+    float: right;
+    margin-top: 6px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  #main-nav .container .cancel{
+    font-size: 30px;
+    float: right;
+    margin-top: 3px;
+    cursor: pointer;
+    margin-right: 3rem;
+    right: 0%;
+    position: absolute;
+    overflow: hidden;
+    display: none;
+  }
+
+  #main-nav #check {
+    display: none;
+    float: right;
+    margin-top: 10px;
+  }
+
+  #main-nav label {
+    display: none;
+  }
+
+  #main-nav .container label {
+    display: block;
+    float: right;
+    margin-left: 10px;
+  }
+
+  #check:checked ~ .nav_links{
+    transform: translateX(100%);
+  }
+
+  #check:checked ~ label .Menu-bar{
+    display: none;
+  }
+
+  #check:checked ~ label .cancel{
+    display: block;
+  }
+}

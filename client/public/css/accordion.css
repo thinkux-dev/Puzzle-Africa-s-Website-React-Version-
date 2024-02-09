@@ -1,0 +1,256 @@
+:root{
+  --primary-color: #6F00B4;
+  --primary-color-dark: #000000;
+  --secondary-color: #FDD400;
+  --border-color-orange: #FFEC8A;
+  --border-color-light-purple: #EFD4FF;
+  --border-color-grey: #F5F5F5;
+  --max-width: 1350px;
+  --white: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'General Sans', sans-serif;
+}
+
+body{
+  display: block;
+  font-family: 'General Sans', sans-serif;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  background: #f5f8ff;
+ 
+}
+
+.container{
+  margin: 0 40px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 28rem;
+}
+
+.container h1{
+  color: #333;
+}
+
+.container .tab{
+  position: relative;
+  background: #fff;
+  padding: 0 20px 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.container .tab input{
+  appearance: none;
+}
+
+.container .tab label{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container .tab label::after{
+  content: '+';
+  position: absolute;
+  right: 20px;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+}
+
+.container .tab:hover label::after{
+  color: #333;
+}
+
+.container .tab input:checked ~ label::after{
+  transform: rotate(135deg);
+  color: #fff;
+}
+
+.container .tab label h2{
+  width: 40px;
+  height: 40px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.25em;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.container .tab input:checked ~ label h2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 8em;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.container .tab:nth-child(2) label h2{
+  background: linear-gradient(135deg, #5cb85c, #2f9323); /* Adjusted darker green */
+}
+
+.container .tab:nth-child(3) label h2{
+  background: linear-gradient(135deg, #2d76d9, #00b5e0); /* Adjusted darker blue */
+}
+
+.container .tab:nth-child(4) label h2{
+  background: linear-gradient(135deg, #d656d9, #a11f84); /* Adjusted darker pink */
+}
+
+.container .tab:nth-child(5) label h2{
+  background: linear-gradient(135deg, #e64c4a, #ffae00); /* Adjusted darker red */
+}
+
+.container .tab label h3{
+  position: relative;
+  font-weight: 500;
+  color: #333;
+}
+
+.container .tab input:checked ~ label h3{
+  background: #fff;
+  padding: 2px 10px;
+  color: #333;
+  border-radius: 2px;
+  box-shadow: 0.5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.container .tab .content{
+  max-height: 0;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.container .tab input:checked ~ .content{
+  max-height: 100vh;
+}
+
+.container .tab .content p{
+  position: relative;
+  padding: 10px 0;
+  color: #333;
+}
+
+.container .tab input:checked ~ .content p{
+  color: #fff;
+}
+
+
+
+/* Utility */
+.contain {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+/* Navigation */
+#main-nav{
+  background: #f5f8ff;
+  position: sticky;
+  top: 0;
+}
+
+#main-nav .contain{
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+  padding: 1rem;
+  align-items: center;
+}
+
+#main-nav .contain .Menu-bar{
+  width: 100%;
+  max-width: 50px;
+  display: none;
+}
+
+#main-nav .contain label, #check{
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+#main-nav .nav_logo{
+  width: 180px;
+}
+
+#main-nav .nav_links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: .55rem;
+  line-height: 1.3;
+  gap: 2rem;
+}
+
+#main-nav .nav_links li{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+#main-nav .nav_links li a {
+  padding: 0.75rem;
+  color: var(--primary-color-dark);
+  font-weight: regular;
+  position: relative;
+}
+
+#main-nav .nav_links li a.current{
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+#main-nav .nav_links li a:hover {
+  color: var(--primary-color)
+}
+
+#main-nav .nav_links li span {
+  color: var(--border-color-light-purple);
+  font-size: 10.3px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+#main-nav .nav_links li span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  white-space: nowrap;
+}
+
+#main-nav .nav_logo,
+#main-nav .launch_business {
+  cursor: pointer;
+}
+
+#main-nav .launch_business{
+  width: 230px;
+}

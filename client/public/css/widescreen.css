@@ -1,0 +1,584 @@
+body {
+  font-family: 'General Sans', sans-serif;
+  line-height: 1.5;
+  background-color: var(--white);
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1280px) {
+  #main-nav {
+    margin-right: -8rem;
+  }
+
+  #main-nav .nav_logo,
+  #main-nav .launch_business,
+  .content_container,
+  .youtube_container,
+  .business_tools.flex-container,
+  .section_container h1,
+  .launch_grow_manage,
+  .your_business,
+  .track_sales,
+  .Business_Education,
+  .Business_Registration,
+  .Power_With_Puzzle,
+  .service_partners,
+  .Start_Business,
+  #main-footer,
+  #main-footer .grid_container,
+  .moblie_flex_container,
+  .horizontal-line,
+  .bottom-footer-elements {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #main-nav .nav_links li span,
+  .track_sales .leftside h1,
+  .track_sales .leftside .puzzle_values,
+  .track_sales .leftside .waitlist,
+  .Business_Education .leftside h1,
+  .Business_Education .leftside p,
+  .Business_Education .leftside .Start_Learning,
+  .Business_Registration .leftside .Registrations,
+  .Business_Registration .leftside h1,
+  .Business_Registration .leftside .Start_Learning,
+  .service_partners h1,
+  .service_partners .companies,
+  .bottom-footer-elements .social-media {
+    white-space: nowrap;
+  }
+
+  #main-nav .nav_links{
+    gap: 3rem;
+    white-space: nowrap;
+  }
+
+  #main-nav .launch_business{
+    width: 190px;
+    margin-left: 5rem;
+  }
+
+  .content_container{
+    margin-left: 3rem;
+    white-space: nowrap;
+  }
+
+  .content_container h1{
+    font-size: 50px;
+  }
+
+  .content_container h1 .heading_1{
+    font-size: 50px;
+  }
+
+  .content_container h3{
+    font-size: 20px;
+  }
+
+  .content_container .business_community{
+    max-width: 220px;
+    margin-left: -0.7rem;
+  }
+
+  .youtube_container{
+    margin-left: 20rem;
+    max-width: 650px;
+  }
+
+  .business_tools.flex-container{
+    margin-right: -8rem;
+  }
+
+  .section_container h1{
+    margin-left: 3rem;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+
+  .container .section_container .launch_grow_manage{
+    margin-left: 6rem;
+    gap: 4rem;
+  }
+
+  .container .section_container .your_business{
+    margin-left: 5rem;
+    margin-top: -1rem;
+    max-width: 900px;
+    border-radius: 10px;
+  }
+
+  .Business_Education img,
+  .Business_Registration img,
+  .track_sales img {
+    max-width: 560px;
+    margin-top: 4rem;
+    margin-left: 5rem;
+  }
+
+  .track_sales img,
+  .Business_Education img,
+  .Business_Registration img {
+    margin-top: 4rem;
+  }
+
+  /* Track Sales */
+  .track_sales{
+    gap: 3rem;
+    margin-top: 3rem;
+    align-items: center;
+  }
+
+  .leftside{
+    margin-left: -14rem;
+    margin-top: 4rem;
+  }
+
+  .track_sales .leftside h1{
+    white-space: nowrap;
+    margin-left: 12rem;
+    font-size: 35px;
+  }
+
+  .track_sales .leftside .puzzle_values{
+    white-space: nowrap;
+    margin-left: 12rem;
+    font-size: 20px;
+  }
+
+  .track_sales .leftside .puzzle_values .checkIcon{
+    font-size: 1.5rem;
+  }
+
+  .track_sales .leftside .waitlist{
+    margin-left: 12rem;
+    font-size: 20px;
+  }
+
+  .track_sales img{
+    max-width: 600px;
+    margin-top: 4rem;
+    margin-right: -6rem;
+  }
+
+  /* Business Education */
+  .Business_Education{
+    gap: 10rem;
+    margin-top: 3rem;
+    align-items: center;
+  }
+
+  .Business_Education img{
+    max-width: 600px;
+    margin-top: 4rem;
+    margin-left: -9rem;
+  }
+
+  .Business_Education .leftside{
+    margin-right: -16rem;
+    margin-top: 3rem;
+  }
+
+  .Business_Education .leftside h1{
+    white-space: nowrap;
+    margin-left: 12rem;
+    font-size: 40px;
+  }
+
+  .Business_Education .leftside p{
+    white-space: nowrap;
+    margin-left: 12rem;
+    font-size: 20px;
+  }
+
+  .Business_Education .leftside .Start_Learning{
+    margin-left: 12rem;
+    font-size: 20px;
+  }
+
+  /* Register Business Section */
+  .Business_Registration{
+    gap: 7rem;
+    margin-top: 3rem;
+    align-items: center;
+  }
+
+  .Business_Registration .leftside{
+    margin-left: -13rem;
+    margin-top: 4rem;
+  }
+
+  .Business_Registration .leftside .Registrations{
+    white-space: nowrap;
+    margin-left: 12rem;
+    font-size: 20px;
+  }
+
+  .Business_Registration .leftside .Registrations .checkIcon{
+    font-size: 1.5rem;
+  }
+
+  .Business_Registration .leftside h1{
+    white-space: nowrap;
+    margin-left: 12rem;
+    font-size: 35px;
+  }
+
+  .Business_Registration .leftside .Start_Learning{
+    margin-left: 12rem;
+    font-size: 20px;
+  }
+
+  .Business_Registration img{
+    max-width: 600px;
+    margin-top: 4rem;
+    margin-right: -6rem;
+  }
+
+  .service_partners {
+    margin-top: 200rem;
+  }
+
+  .service_partners h1,
+  .service_partners .companies {
+    margin-right: -7rem;
+  }
+
+  .Power_With_Puzzle,
+  .Start_Business {
+    margin-right: 8rem;
+  }
+
+  /* Power With Puzzle */
+  .Power_With_Puzzle{
+    margin-top: 80px;
+    max-width: 700px;
+    margin-left: 14rem;
+  }
+
+  .service_partners{
+    margin-top: 5rem;
+  }
+
+  .service_partners h1{
+    margin-right: -8rem;
+    font-size: 35px;
+  }
+
+  .service_partners .companies{
+    gap: 8rem;
+    max-width: 140px;
+    margin-left: 40rem;
+  }
+
+  /* Get Started */
+  .Start_Business{
+    margin-left: 18rem;
+  }
+
+  .Get_Started{
+    margin-top: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .Get_Started h1{
+    font-size: 35px;
+  }
+
+  .Get_Started img{
+    max-width: 220px;
+  }
+
+  /* Footer */
+  #main-footer {
+    margin-right: -7rem;
+  }
+
+  #main-footer .grid_container {
+    grid-gap: 5rem;
+  }
+
+  .moblie_flex_container {
+    grid-gap: 7rem;
+  }
+
+  .bottom-footer-elements .social-media {
+    margin-left: -10.5rem;
+  }
+
+  /* Footer */
+  #main-footer{
+    margin-right: -8rem;
+  }
+
+  #main-footer .grid_container{
+    grid-gap: 5rem;
+    margin-left: 2rem;
+  }
+
+  .moblie_flex_container{
+    grid-gap: 7rem;
+    white-space: nowrap;
+    margin-left: 10rem;
+  }
+
+  #main-footer .grid_container p{
+    margin-top: 4.5rem;
+    width: 353px;
+    font-size: 16px;
+    margin-left: -5rem;
+  }
+
+  #main-footer .grid_container li{
+    padding-bottom: 2rem;
+    font-size: 16px;
+    margin-right: -5px;
+  }
+
+  .subscribe-input {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  /* Horizontal Line */
+  .horizontal-line {
+    margin-top: 10rem;
+    width: 1150px;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  /* Copyright&social-media */
+  .bottom-footer-elements{
+    flex-direction: row; 
+    gap: 59rem; 
+    padding-top: 1rem;
+    margin-bottom: 0; 
+    position: relative;
+  }
+
+  .bottom-footer-elements .Copyright{
+    align-items: center;
+    justify-self: center;
+    margin-left: 2rem;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .bottom-footer-elements .social-media{
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+/* ipad Mini */
+@media screen and (min-width: 768px) and (max-width: 768px){
+  #main-nav .container .Menu-bar{
+    width: 100%;
+    max-width: 50px;
+    display: none;
+  }
+  
+  #main-nav .container label, #check{
+    display: none;
+  }
+
+  #main-nav{
+    margin-right: -30rem;
+  }
+
+  #main-nav .nav_logo{
+    width: 200px;
+  }
+
+  #main-nav .nav_links {
+    white-space: nowrap;
+    font-size: 1rem;
+    gap: 0.5rem;
+  }
+
+  #main-nav .nav_links li span{
+    font-size: 10.5px;
+  }
+
+  #main-nav .launch_business{
+    width: 210px;
+    margin-left: -1.5rem;
+  }
+
+  .content_container{
+    margin-left: 26rem;
+    white-space: nowrap;
+  }
+
+  .youtube_container{
+    margin-left: 13rem;
+  }
+
+  .business_tools.flex-container{
+    margin-right: -30rem;
+  }
+
+  .section_container h1{
+    margin-left: 26rem;
+    white-space: nowrap;
+    font-size: 22px;
+  }
+
+  .launch_grow_manage{
+    margin-left: 10rem;
+    margin-right: -15rem;
+  }
+
+  .your_business{
+    margin-left: 12rem;
+    max-width: 560px;
+  }
+
+  /* Track Sales */
+  .track_sales{
+    gap: 3rem;
+    margin-top: 3rem;
+    align-items: center;
+  }
+
+  .leftside{
+    margin-left: 1rem;
+    margin-top: 4rem;
+  }
+
+  .track_sales .leftside h1{
+    white-space: nowrap;
+    margin-left: 15rem;
+  }
+
+  .track_sales .leftside .puzzle_values{
+    white-space: nowrap;
+    margin-left: 15rem;
+  }
+
+  .track_sales .leftside .waitlist{
+    margin-left: 15rem;
+  }
+
+  .track_sales img{
+    max-width: 560px;
+    margin-top: 5rem;
+    margin-right: -10rem;
+  }
+
+  /* Business Education */
+  .Business_Education{
+    gap: 1rem;
+    margin-top: 3rem;
+    align-items: center;
+  }
+
+  .Business_Education img{
+    max-width: 560px;
+    margin-top: 4rem;
+    margin-left: 9rem;
+  }
+
+  .Business_Education .leftside{
+    margin-top: 1rem;
+    margin-right: -15rem;
+  }
+
+  .Business_Education .leftside h1{
+    white-space: nowrap;
+    margin-left: 2rem;
+  }
+
+  .Business_Education .leftside p{
+    white-space: nowrap;
+    margin-left: 2rem;
+  }
+
+  .Business_Education .leftside .Start_Learning{
+    margin-left: 2rem;
+  }
+
+  /* Register Business Section */
+  .Business_Registration{
+    gap: 3rem;
+    margin-top: 3rem;
+    align-items: center;
+  }
+
+  .Business_Registration .leftside{
+    margin-left: 1rem;
+    margin-top: 5rem;
+  }
+
+  .Business_Registration .leftside .Registrations{
+    white-space: nowrap;
+    margin-left: 8rem;
+  }
+
+  .Business_Registration .leftside h1{
+    white-space: nowrap;
+    margin-left: 8rem;
+  }
+
+  .Business_Registration .leftside .Start_Learning{
+    margin-left: 8rem;
+  }
+
+  .Business_Registration img{
+    max-width: 560px;
+    margin-top: 4rem;
+    margin-right: -15rem;
+  }
+
+  /* Power With Puzzle */
+  .Power_With_Puzzle{
+    margin-left: 12rem;
+  }
+
+  .service_partners{
+    margin-top: 5rem;
+  }
+
+  .service_partners h1{
+    margin-right: -30rem;
+  }
+
+  .service_partners .companies{
+    margin-right: -25rem;
+  }
+
+  /* Get Started */
+  .Start_Business{
+    margin-left: 19rem;
+  }
+
+  /* Footer */
+  #main-footer{
+    margin-right: -30rem;
+  }
+
+  #main-footer .grid_container{
+    grid-gap: 5rem;
+  }
+
+  .moblie_flex_container{
+    grid-gap: 5rem;
+  }
+
+  .subscribe-input {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  /* Copyright&Social-media */
+  .bottom-footer-elements{
+    white-space: nowrap;
+  }
+
+  .bottom-footer-elements .social-media{
+    margin-left: -17rem;
+  }
+}

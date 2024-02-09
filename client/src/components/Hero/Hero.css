@@ -1,0 +1,151 @@
+.hero-wrapper{
+  color: var(--primary-color-dark);
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.hero-container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-container h1  {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0.1rem;
+  margin-top: -23rem;
+}
+
+.hero-container h1 .heading_1{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.hero-container h3{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.hero-container .business_community_mobile{
+  display: none;
+}
+
+.hero-container .business_community{
+  display: flex;
+  gap: 1rem; /* Add the desired gap between items */
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.youtube_container_fold{
+  display: none;
+}
+
+.youtube_container {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto; /* Center the image horizontally */
+  margin-top: -30rem;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 3rem;
+  /* margin-top: -31rem; */
+  margin-left: 23rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.youtube_container iframe{
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1280px){
+  .youtube_container{
+    margin-left: 15rem;
+    max-width: 800px;
+  }
+
+  .youtube_container_fold{
+    display: none;
+  }
+}
+
+
+/* ipad Mini */
+@media screen and (min-width: 768px) and (max-width: 768px){
+  .hero-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -10rem;
+  }
+
+  .youtube_container {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto; /* Center the image horizontally */
+    margin-top: -41rem;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 3rem;
+    /* margin-top: -31rem; */
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .youtube_container_fold{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px){
+  .hero-container{
+    margin-top: -20rem;
+  }
+
+  .youtube_container{
+    margin-top: -58rem;
+    margin-left: 6.6rem;
+  }
+
+  .youtube_container_fold{
+    display: none;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 820px){
+  .hero-container{
+    margin-top: -15rem;
+  }
+  .youtube_container iframe {
+    margin: auto;
+    margin-left: -15rem;
+    margin-top: -20rem;
+  }
+
+  .youtube_container_fold{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 912px) and (max-width: 912px){
+  .hero-container{
+    margin-top: -24rem;
+  }
+
+  .youtube_container{
+    margin-top: -59rem;
+    margin-left: 4rem;
+  }
+
+  .youtube_container_fold{
+    display: none;
+  }
+}
