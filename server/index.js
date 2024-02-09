@@ -1,14 +1,14 @@
-// const express = require('express')
-// const nodemailer = require("nodemailer");
-// const cors = require('cors');
-// const dotenv = require('dotenv');
-// const validator = require('validator');
+const express = require('express')
+const nodemailer = require("nodemailer");
+const cors = require('cors');
+const dotenv = require('dotenv');
+const validator = require('validator');
 
-import express from 'express';
-import nodemailer from 'nodemailer';
-import cors from 'cors';
-import dotenv from 'dotenv';
-import validator from 'validator';
+// import express from 'express';
+// import nodemailer from 'nodemailer';
+// import cors from 'cors';
+// import dotenv from 'dotenv';
+// import validator from 'validator';
 
 
 const app = express()
