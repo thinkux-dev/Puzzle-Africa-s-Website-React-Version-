@@ -122,15 +122,20 @@
 @media (min-width: 820px) and (max-width: 820px){
   .hero-container{
     margin-top: -15rem;
+    margin-left: -1rem;
   }
-  .youtube_container iframe {
+  .youtube_container{
     margin: auto;
-    margin-left: -15rem;
-    margin-top: -20rem;
+    margin-right: -rem;
+    margin-top: -51rem;
   }
 
   .youtube_container_fold{
     display: none;
+  }
+
+  .business_tools{
+    margin-top: 2rem;
   }
 
 }
