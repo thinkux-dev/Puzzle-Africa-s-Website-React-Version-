@@ -2020,6 +2020,14 @@
     margin-left: -3px;
   }
 
+  .main-footer .grid_container .list_children{
+    text-align: left;
+    margin-left: -10px;
+  }
+  .main-footer .grid_container .quick_link_ul{
+    margin-left: 10px;
+  }
+
   .bottom-footer-elements .Copyright{
     margin-left: 3.5rem;
   }
