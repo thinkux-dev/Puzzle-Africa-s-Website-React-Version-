@@ -57,7 +57,7 @@ const Hero = () => {
 
             {/* Youtube video */}
             <div className='youtube_container'>
-                <iframe
+                {/* <iframe
                     width={560}
                     height='315'
                     src='https://www.youtube.com/embed/frIkqkshgx8?si=VbBCLbfP5fJdnjN2'
@@ -65,12 +65,16 @@ const Hero = () => {
                     frameBorder='0'
                     allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
                     allowFullScreen
-                ></iframe>
+                ></iframe> */}
+
+                <video id="videoPlayer" width="650" controls muted="muted" autoPlay>
+                    <source src="/successfulcompany.mp4" type="video/mp4" />
+                </video>
             </div>
 
             {/* Youtube video fold */}
             <div className='youtube_container_fold'>
-                <iframe
+                {/* <iframe
                     width={260}
                     height={156}
                     src='https://www.youtube.com/embed/frIkqkshgx8?si=VbBCLbfP5fJdnjN2'
@@ -78,7 +82,11 @@ const Hero = () => {
                     frameBorder='0'
                     allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
                     allowFullScreen
-                ></iframe>
+                ></iframe> */}
+
+                <video id="videoPlayer" width="650" controls muted="muted" autoPlay>
+                    <source src="/successfulcompany.mp4" type="video/mp4" />
+                </video>
             </div>
         </div>
     );

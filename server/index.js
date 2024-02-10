@@ -15,6 +15,8 @@ const app = express()
 dotenv.config();
 const PORT = process.env.PORT;
 
+// app.use(express.static('public'));
+
 app.use(cors());
 
 // Setting up course to allow us pass to frontend
@@ -76,18 +78,51 @@ const sendEmail = ({ recipient_email }) => {
   });
 }
 
-app.get('/', (req, res) => {
-  sendEmail()
-    .then((response) => res.send(response.message))
-    .catch((error) => res.status(400).send(error.message));
-});
+// app.get('/', (req, res) => {
+//   sendEmail()
+//     .then((response) => res.send(response.message))
+//     .catch((error) => res.status(400).send(error.message));
+// });
 
-app.post('/subscribe', (req, res) => {
-  sendEmail(req.body)
-  .then((response) => res.send(response.message))
-  .catch((error) => res.status(400).send(error.message));
-})
+// app.post('/subscribe', (req, res) => {
+//   sendEmail(req.body)
+//   .then((response) => res.send(response.message))
+//   .catch((error) => res.status(400).send(error.message));
+// })
+
+// // Handle click event on YouTube image
+// app.get('/video', (req, res) => {
+//   const range = req.headers.range;
+
+//   if(!range) {
+//     res.status(400).send("Requires Range header");
+//   }
+
+//   const videoPath = 'public/successfulcompany.mp4';
+//   const videoSize = fs.statSync(videoPath).size;
+
+//   // Parse Range
+//   // Example: 'bytes=32324-'
+//   const CHUNCK_SIZE = 10 ** 6; // 10MB
+//   const start = Number(range.replace(/\D/g, ""));;
+//   const end = Math.min(start + CHUNCK_SIZE, videoSize - 1);
+
+//   const contentLength = end - start + 1;
+//   const headers = {
+//     "Content-Range": `bytes ${start}-${end}/${videoSize}`,
+//     "Accept-Ranges": "bytes",
+//     "Content-Length": contentLength,
+//     "Content-Type": "video/mp4",
+//   };
+
+//   res.writeHead(206, headers);
+
+//   const videoStream = fs.createReadStream(videoPath, { start, end });
+
+//   videoStream.pipe(res);
+// });
 
 app.listen(PORT, () => {
   console.log(`Server started at http://localhost:${PORT}`);
 });
+
