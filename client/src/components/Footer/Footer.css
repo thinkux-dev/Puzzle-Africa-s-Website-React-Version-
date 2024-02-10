@@ -2033,7 +2033,7 @@
   }
 }
 
-@media only screen and (device-width: 360px) and (device-height: 780px){
+/* @media only screen and (device-width: 360px) and (device-height: 780px){
   .youtube_container {
     margin-top: -32rem;
   }
@@ -2182,7 +2182,7 @@
     margin-top: 1.8rem;
   }
 
-  /* Power With Puzzle */
+  
   .Power_With_Puzzle{
     width: 100%;
     max-width: 320px;
@@ -2221,7 +2221,7 @@
   .bottom-footer-elements .Copyright{
     margin-left: 3.5rem;
   }
-}
+} */
 
 @media only screen and (device-width: 360px) and (device-height: 800px){
   .youtube_container {
@@ -2413,8 +2413,12 @@
   }
 }
 @media only screen and (device-width: 364px){
+  .hero-wrapper{
+    margin-left: -0.5rem;
+    margin-top: -2rem;
+  }
   .youtube_container {
-    margin-top: -31rem;
+    margin-top: -33rem;
     margin-right: 25px;
   }
 
