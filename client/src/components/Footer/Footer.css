@@ -2233,7 +2233,7 @@
 
 /* Lawrence screen */
 
-/* @media only screen and (device-width: 360px) and (device-height: 800px){
+@media only screen and (device-width: 360px) and (device-height: 800px){
   .youtube_container {
     margin-top: -32rem;
   }
@@ -2417,6 +2417,11 @@
     margin-left: -3px;
   }
 
+  /* Bottom footer */
+  .bottom-footer{
+    margin-top: -22rem;
+  }
+
   .main-footer .grid_container .list_children{
     text-align: left;
     margin-left: -10px;
@@ -2428,7 +2433,7 @@
   .bottom-footer-elements .Copyright{
     margin-left: 3.5rem;
   }
-} */
+}
 
 @media only screen and (device-width: 364px){
   .hero-wrapper{
