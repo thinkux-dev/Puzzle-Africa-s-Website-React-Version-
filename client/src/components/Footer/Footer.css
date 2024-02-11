@@ -3469,6 +3469,818 @@
   }
 }
 
+@media only screen and (device-width: 380px){
+  .hero-wrapper{
+    margin-left: -0.5rem;
+    margin-top: -2rem;
+  }
+  .youtube_container {
+    margin-top: -33rem;
+    margin-right: 25px;
+  }
+
+  .business_tools{
+    margin-top: -1rem;
+  }
+
+  .business_puzzle{
+    margin-top: -1rem;
+  }
+  .business_puzzle img {
+    margin-left: -7rem;
+  }
+
+  .container .section_container .puzzle-tools{
+    margin-top: -0.5rem;
+    margin-left: -1rem;
+  }
+  .container .section_container .launch_grow_manage{
+    margin-left: 18px;
+  }
+  .container .section_container .business{
+    margin-top: 10px;
+    margin-left: -1.5rem;
+  }
+  .section_container .your_business_mobile {
+    margin-right: 1rem;
+    margin-top: -1rem;
+  }
+
+  .track_sales .leftside{
+    margin-top: -3rem;
+  }
+  .track_sales .leftside h1{
+    font-size: 20px;
+  }
+
+  .track_sales .leftside h1 span{
+    font-size: 20px;
+  }
+
+  .track_sales .leftside .puzzle_values{
+    margin-left: 1rem;
+    font-size: 11px;
+  }
+
+  .track_sales .leftside .puzzle_values .checkIcon{
+    font-size: 0.8rem;
+    padding-right: 0.5rem;
+  }
+
+  .track_sales .leftside .waitlist{
+    margin-left: 1rem;
+    margin-top: -1rem;
+  }
+
+  .join_now{
+    padding-top: 6px;
+    font-size: 11px;
+  }
+
+  .track_sales .leftside .waitlist .coming_soon{
+    padding: 5px;
+    padding-top: -5px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 11px;
+  }
+
+  .track_sales img{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+    margin-left: -10px;
+    object-fit: cover;
+  }
+
+  .Business_Education_mobile .leftside{
+    margin-left: -1rem;
+  }
+
+  .Business_Education_mobile .leftside h1{
+    text-align: left;
+    margin-top: 3rem;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+
+  .Business_Education_mobile .leftside h1 span{
+    color: var(--primary-color);
+    font-size: 20px;
+  }
+
+  .Business_Education_mobile .leftside .Start_Learning{
+    margin-top: -1rem;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .Business_Education_mobile .leftside p{
+    text-align: left;
+    white-space: nowrap;
+    font-size: 11px;
+    margin-left: 1rem;
+    white-space: nowrap;
+  }
+
+  .Business_Education_mobile img{
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .Business_Registration .leftside{
+    margin-top: -0.5rem;
+  }
+  .Business_Registration .leftside h1{
+    font-size: 21px;
+    margin-left: 1rem;
+  }
+
+  .Business_Registration .leftside .Registrations{
+    margin-left: 1rem;
+    font-size: 11px;
+  }
+
+  .Business_Registration .leftside .Registrations .checkIcon{
+    font-size: 0.8rem;
+    padding-right: 0.5rem;
+  }
+
+  .Business_Registration .leftside .Start_Learning{
+    font-size: 11px;
+    white-space: nowrap;
+    margin-top: -1rem;
+  }
+
+  .Business_Registration img{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 1.8rem;
+  }
+
+  /* Power With Puzzle */
+  .Power_With_Puzzle{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+    margin-left: 13px;
+    object-fit: cover;
+  }
+
+  .Get_Started h1{
+    margin-left: -2.8rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .Get_Started h1 span{
+    margin-right: -2.8rem;
+  }
+
+  .Get_Started img{
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: -1.5rem;
+    margin-top: 1rem;
+    margin-left: -2.5rem;
+  }
+
+  .subscribe-input {
+    display: flex;
+    align-items: center;
+    margin-top: -8.6rem;
+    margin-left: -3px;
+  }
+
+  .main-footer .grid_container .list_children{
+    text-align: left;
+    margin-left: -10px;
+  }
+  .main-footer .grid_container .quick_link_ul{
+    margin-left: 10px;
+  }
+
+  .bottom-footer-elements .Copyright{
+    margin-left: 3.5rem;
+  }
+}
+
+@media only screen and (device-width: 381px){
+  .hero-wrapper{
+    margin-left: -0.5rem;
+    margin-top: -2rem;
+  }
+  .youtube_container {
+    margin-top: -33rem;
+    margin-right: 25px;
+  }
+
+  .business_tools{
+    margin-top: -1rem;
+  }
+
+  .business_puzzle{
+    margin-top: -1rem;
+  }
+  .business_puzzle img {
+    margin-left: -7rem;
+  }
+
+  .container .section_container .puzzle-tools{
+    margin-top: -0.5rem;
+    margin-left: -1rem;
+  }
+  .container .section_container .launch_grow_manage{
+    margin-left: 18px;
+  }
+  .container .section_container .business{
+    margin-top: 10px;
+    margin-left: -1.5rem;
+  }
+  .section_container .your_business_mobile {
+    margin-right: 1rem;
+    margin-top: -1rem;
+  }
+
+  .track_sales .leftside{
+    margin-top: -3rem;
+  }
+  .track_sales .leftside h1{
+    font-size: 20px;
+  }
+
+  .track_sales .leftside h1 span{
+    font-size: 20px;
+  }
+
+  .track_sales .leftside .puzzle_values{
+    margin-left: 1rem;
+    font-size: 11px;
+  }
+
+  .track_sales .leftside .puzzle_values .checkIcon{
+    font-size: 0.8rem;
+    padding-right: 0.5rem;
+  }
+
+  .track_sales .leftside .waitlist{
+    margin-left: 1rem;
+    margin-top: -1rem;
+  }
+
+  .join_now{
+    padding-top: 6px;
+    font-size: 11px;
+  }
+
+  .track_sales .leftside .waitlist .coming_soon{
+    padding: 5px;
+    padding-top: -5px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 11px;
+  }
+
+  .track_sales img{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+    margin-left: -10px;
+    object-fit: cover;
+  }
+
+  .Business_Education_mobile .leftside{
+    margin-left: -1rem;
+  }
+
+  .Business_Education_mobile .leftside h1{
+    text-align: left;
+    margin-top: 3rem;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+
+  .Business_Education_mobile .leftside h1 span{
+    color: var(--primary-color);
+    font-size: 20px;
+  }
+
+  .Business_Education_mobile .leftside .Start_Learning{
+    margin-top: -1rem;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .Business_Education_mobile .leftside p{
+    text-align: left;
+    white-space: nowrap;
+    font-size: 11px;
+    margin-left: 1rem;
+    white-space: nowrap;
+  }
+
+  .Business_Education_mobile img{
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .Business_Registration .leftside{
+    margin-top: -0.5rem;
+  }
+  .Business_Registration .leftside h1{
+    font-size: 21px;
+    margin-left: 1rem;
+  }
+
+  .Business_Registration .leftside .Registrations{
+    margin-left: 1rem;
+    font-size: 11px;
+  }
+
+  .Business_Registration .leftside .Registrations .checkIcon{
+    font-size: 0.8rem;
+    padding-right: 0.5rem;
+  }
+
+  .Business_Registration .leftside .Start_Learning{
+    font-size: 11px;
+    white-space: nowrap;
+    margin-top: -1rem;
+  }
+
+  .Business_Registration img{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 1.8rem;
+  }
+
+  /* Power With Puzzle */
+  .Power_With_Puzzle{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+    margin-left: 13px;
+    object-fit: cover;
+  }
+
+  .Get_Started h1{
+    margin-left: -2.8rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .Get_Started h1 span{
+    margin-right: -2.8rem;
+  }
+
+  .Get_Started img{
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: -1.5rem;
+    margin-top: 1rem;
+    margin-left: -2.5rem;
+  }
+
+  .subscribe-input {
+    display: flex;
+    align-items: center;
+    margin-top: -8.6rem;
+    margin-left: -3px;
+  }
+
+  .main-footer .grid_container .list_children{
+    text-align: left;
+    margin-left: -10px;
+  }
+  .main-footer .grid_container .quick_link_ul{
+    margin-left: 10px;
+  }
+
+  .bottom-footer-elements .Copyright{
+    margin-left: 3.5rem;
+  }
+}
+
+@media only screen and (device-width: 382px){
+  .hero-wrapper{
+    margin-left: -0.5rem;
+    margin-top: -2rem;
+  }
+  .youtube_container {
+    margin-top: -33rem;
+    margin-right: 25px;
+  }
+
+  .business_tools{
+    margin-top: -1rem;
+  }
+
+  .business_puzzle{
+    margin-top: -1rem;
+  }
+  .business_puzzle img {
+    margin-left: -7rem;
+  }
+
+  .container .section_container .puzzle-tools{
+    margin-top: -0.5rem;
+    margin-left: -1rem;
+  }
+  .container .section_container .launch_grow_manage{
+    margin-left: 18px;
+  }
+  .container .section_container .business{
+    margin-top: 10px;
+    margin-left: -1.5rem;
+  }
+  .section_container .your_business_mobile {
+    margin-right: 1rem;
+    margin-top: -1rem;
+  }
+
+  .track_sales .leftside{
+    margin-top: -3rem;
+  }
+  .track_sales .leftside h1{
+    font-size: 20px;
+  }
+
+  .track_sales .leftside h1 span{
+    font-size: 20px;
+  }
+
+  .track_sales .leftside .puzzle_values{
+    margin-left: 1rem;
+    font-size: 11px;
+  }
+
+  .track_sales .leftside .puzzle_values .checkIcon{
+    font-size: 0.8rem;
+    padding-right: 0.5rem;
+  }
+
+  .track_sales .leftside .waitlist{
+    margin-left: 1rem;
+    margin-top: -1rem;
+  }
+
+  .join_now{
+    padding-top: 6px;
+    font-size: 11px;
+  }
+
+  .track_sales .leftside .waitlist .coming_soon{
+    padding: 5px;
+    padding-top: -5px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 11px;
+  }
+
+  .track_sales img{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+    margin-left: -10px;
+    object-fit: cover;
+  }
+
+  .Business_Education_mobile .leftside{
+    margin-left: -1rem;
+  }
+
+  .Business_Education_mobile .leftside h1{
+    text-align: left;
+    margin-top: 3rem;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+
+  .Business_Education_mobile .leftside h1 span{
+    color: var(--primary-color);
+    font-size: 20px;
+  }
+
+  .Business_Education_mobile .leftside .Start_Learning{
+    margin-top: -1rem;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .Business_Education_mobile .leftside p{
+    text-align: left;
+    white-space: nowrap;
+    font-size: 11px;
+    margin-left: 1rem;
+    white-space: nowrap;
+  }
+
+  .Business_Education_mobile img{
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .Business_Registration .leftside{
+    margin-top: -0.5rem;
+  }
+  .Business_Registration .leftside h1{
+    font-size: 21px;
+    margin-left: 1rem;
+  }
+
+  .Business_Registration .leftside .Registrations{
+    margin-left: 1rem;
+    font-size: 11px;
+  }
+
+  .Business_Registration .leftside .Registrations .checkIcon{
+    font-size: 0.8rem;
+    padding-right: 0.5rem;
+  }
+
+  .Business_Registration .leftside .Start_Learning{
+    font-size: 11px;
+    white-space: nowrap;
+    margin-top: -1rem;
+  }
+
+  .Business_Registration img{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 1.8rem;
+  }
+
+  /* Power With Puzzle */
+  .Power_With_Puzzle{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+    margin-left: 13px;
+    object-fit: cover;
+  }
+
+  .Get_Started h1{
+    margin-left: -2.8rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .Get_Started h1 span{
+    margin-right: -2.8rem;
+  }
+
+  .Get_Started img{
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: -1.5rem;
+    margin-top: 1rem;
+    margin-left: -2.5rem;
+  }
+
+  .subscribe-input {
+    display: flex;
+    align-items: center;
+    margin-top: -8.6rem;
+    margin-left: -3px;
+  }
+
+  .main-footer .grid_container .list_children{
+    text-align: left;
+    margin-left: -10px;
+  }
+  .main-footer .grid_container .quick_link_ul{
+    margin-left: 10px;
+  }
+
+  .bottom-footer-elements .Copyright{
+    margin-left: 3.5rem;
+  }
+}
+
+@media only screen and (device-width: 383px){
+  .hero-wrapper{
+    margin-left: -0.5rem;
+    margin-top: -2rem;
+  }
+  .youtube_container {
+    margin-top: -33rem;
+    margin-right: 25px;
+  }
+
+  .business_tools{
+    margin-top: -1rem;
+  }
+
+  .business_puzzle{
+    margin-top: -1rem;
+  }
+  .business_puzzle img {
+    margin-left: -7rem;
+  }
+
+  .container .section_container .puzzle-tools{
+    margin-top: -0.5rem;
+    margin-left: -1rem;
+  }
+  .container .section_container .launch_grow_manage{
+    margin-left: 18px;
+  }
+  .container .section_container .business{
+    margin-top: 10px;
+    margin-left: -1.5rem;
+  }
+  .section_container .your_business_mobile {
+    margin-right: 1rem;
+    margin-top: -1rem;
+  }
+
+  .track_sales .leftside{
+    margin-top: -3rem;
+  }
+  .track_sales .leftside h1{
+    font-size: 20px;
+  }
+
+  .track_sales .leftside h1 span{
+    font-size: 20px;
+  }
+
+  .track_sales .leftside .puzzle_values{
+    margin-left: 1rem;
+    font-size: 11px;
+  }
+
+  .track_sales .leftside .puzzle_values .checkIcon{
+    font-size: 0.8rem;
+    padding-right: 0.5rem;
+  }
+
+  .track_sales .leftside .waitlist{
+    margin-left: 1rem;
+    margin-top: -1rem;
+  }
+
+  .join_now{
+    padding-top: 6px;
+    font-size: 11px;
+  }
+
+  .track_sales .leftside .waitlist .coming_soon{
+    padding: 5px;
+    padding-top: -5px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 11px;
+  }
+
+  .track_sales img{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+    margin-left: -10px;
+    object-fit: cover;
+  }
+
+  .Business_Education_mobile .leftside{
+    margin-left: -1rem;
+  }
+
+  .Business_Education_mobile .leftside h1{
+    text-align: left;
+    margin-top: 3rem;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+
+  .Business_Education_mobile .leftside h1 span{
+    color: var(--primary-color);
+    font-size: 20px;
+  }
+
+  .Business_Education_mobile .leftside .Start_Learning{
+    margin-top: -1rem;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .Business_Education_mobile .leftside p{
+    text-align: left;
+    white-space: nowrap;
+    font-size: 11px;
+    margin-left: 1rem;
+    white-space: nowrap;
+  }
+
+  .Business_Education_mobile img{
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .Business_Registration .leftside{
+    margin-top: -0.5rem;
+  }
+  .Business_Registration .leftside h1{
+    font-size: 21px;
+    margin-left: 1rem;
+  }
+
+  .Business_Registration .leftside .Registrations{
+    margin-left: 1rem;
+    font-size: 11px;
+  }
+
+  .Business_Registration .leftside .Registrations .checkIcon{
+    font-size: 0.8rem;
+    padding-right: 0.5rem;
+  }
+
+  .Business_Registration .leftside .Start_Learning{
+    font-size: 11px;
+    white-space: nowrap;
+    margin-top: -1rem;
+  }
+
+  .Business_Registration img{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 1.8rem;
+  }
+
+  /* Power With Puzzle */
+  .Power_With_Puzzle{
+    width: 100%;
+    max-width: 320px;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 13px;
+    margin-left: 13px;
+    object-fit: cover;
+  }
+
+  .Get_Started h1{
+    margin-left: -2.8rem;
+    margin-bottom: -0.5rem;
+  }
+
+  .Get_Started h1 span{
+    margin-right: -2.8rem;
+  }
+
+  .Get_Started img{
+    width: 100%;
+    max-width: 120px;
+    margin-bottom: -1.5rem;
+    margin-top: 1rem;
+    margin-left: -2.5rem;
+  }
+
+  .subscribe-input {
+    display: flex;
+    align-items: center;
+    margin-top: -8.6rem;
+    margin-left: -3px;
+  }
+
+  .main-footer .grid_container .list_children{
+    text-align: left;
+    margin-left: -10px;
+  }
+  .main-footer .grid_container .quick_link_ul{
+    margin-left: 10px;
+  }
+
+  .bottom-footer-elements .Copyright{
+    margin-left: 3.5rem;
+  }
+}
+
 @media only screen and (device-width: 412px) and (device-height: 914px){
   .hero-container{
     margin-top: 5rem;
