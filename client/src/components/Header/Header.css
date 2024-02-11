@@ -54,7 +54,8 @@
     position: absolute;
     top: 3rem;
     right: 2rem;
-    background: var(--border-color-light-purple);
+    background: var(--white);
+    color: black;
     flex-direction: column;
     font-weight: 500;
     gap: 2rem;
