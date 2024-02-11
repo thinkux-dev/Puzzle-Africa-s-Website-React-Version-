@@ -53,13 +53,13 @@
     z-index: 3;
     position: absolute;
     top: 3rem;
-    right: 2rem;
+    right: 4rem;
     text-transform: uppercase;
     background: var(--white);
     color: black;
     flex-direction: column;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 10px;
     gap: 2rem;
     padding: 3rem;
     display: flex;
@@ -72,7 +72,7 @@
 
   .h-container .h-menu a span{
     color: var(--border-color-light-purple);
-    font-size: 9px;
+    font-size: 6px;
     font-weight: 600;
     position: absolute;
     left: 50%;
@@ -83,7 +83,7 @@
 
   .h-container .h-menu .business_payments span{
     text-align: left;
-    margin-left: -2.5rem;
+    margin-left: -1.5rem;
   }
 }
 
