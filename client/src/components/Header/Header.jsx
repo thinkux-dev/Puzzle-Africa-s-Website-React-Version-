@@ -47,7 +47,7 @@ const Header = () => {
                         <a href=''>
                             The Mart<span>coming soon</span>
                         </a>
-                        <a href=''>
+                        <a href='' className="business_payments">
                             Business Payments<span>coming soon</span>
                         </a>
                         <NavLink to="/FAQ">FAQ</NavLink>
