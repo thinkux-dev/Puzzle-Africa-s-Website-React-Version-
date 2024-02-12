@@ -1,3 +1,7 @@
+/* .hero-separator{
+  margin-top: -4rem;
+} */
+
 .hero-wrapper{
   color: var(--primary-color-dark);
   position: relative;
@@ -15,7 +19,7 @@
   font-size: 3rem;
   font-weight: 400;
   margin-bottom: 0.1rem;
-  margin-top: -23rem;
+  margin-top: -6rem;
 }
 
 .hero-container h1 .heading_1{
@@ -45,23 +49,36 @@
   display: none;
 }
 
-.youtube_container {
+.hero-container .youtube_container {
   width: 100%;
   max-width: 800px;
-  margin: 40px auto; /* Center the image horizontally */
-  margin-top: -30rem;
+  margin: auto; /* Center the image horizontally */
+  margin-top: 2rem;
   cursor: pointer;
   display: flex;
   margin-bottom: 3rem;
-  /* margin-top: -31rem; */
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: -6rem;
+}
+/* .youtube_container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto; 
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 3rem;
   margin-left: 23rem;
   align-items: center;
   justify-content: center;
-}
+  position: relative;
+} */
 
-.youtube_container iframe{
+/* .youtube_container iframe{
   cursor: pointer;
-}
+} */
 
 @media screen and (min-width: 1280px) and (max-width: 1280px){
   .youtube_container{

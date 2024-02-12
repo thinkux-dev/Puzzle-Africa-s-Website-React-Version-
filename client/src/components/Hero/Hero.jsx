@@ -3,7 +3,7 @@ import "./Hero.css";
 
 const Hero = () => {
     return (
-        <div>
+        <div className="hero-separator">
             <section className='container hero-wrapper'>
                 <div className='paddings innerWidth hero-container'>
                     <h1>
@@ -52,42 +52,54 @@ const Hero = () => {
                             />
                         </a>
                     </div>
+
+                    {/* Youtube video */}
+                    <div className='youtube_container'>
+                        {/* <iframe
+                            width={560}
+                            height='315'
+                            src='https://www.youtube.com/embed/frIkqkshgx8?si=VbBCLbfP5fJdnjN2'
+                            title='YouTube video player'
+                            frameBorder='0'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                            allowFullScreen
+                        ></iframe> */}
+
+                        <video id="videoPlayer" width="650" controls muted="muted" autoPlay>
+                            <source src="/successfulcompany.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+
+                    {/* Youtube video fold */}
+                    <div className='youtube_container_fold'>
+                        {/* <iframe
+                            width={260}
+                            height={156}
+                            src='https://www.youtube.com/embed/frIkqkshgx8?si=VbBCLbfP5fJdnjN2'
+                            title='YouTube video player'
+                            frameBorder='0'
+                            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                            allowFullScreen
+                        ></iframe> */}
+
+                        <video id="videoPlayer" width="650" controls muted="muted" autoPlay>
+                            <source src="/successfulcompany.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
             </section>
 
-            {/* Youtube video */}
-            <div className='youtube_container'>
-                {/* <iframe
-                    width={560}
-                    height='315'
-                    src='https://www.youtube.com/embed/frIkqkshgx8?si=VbBCLbfP5fJdnjN2'
-                    title='YouTube video player'
-                    frameBorder='0'
-                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                    allowFullScreen
-                ></iframe> */}
-
+            {/* <div className='youtube_container'>
                 <video id="videoPlayer" width="650" controls muted="muted" autoPlay>
                     <source src="/successfulcompany.mp4" type="video/mp4" />
                 </video>
             </div>
 
-            {/* Youtube video fold */}
             <div className='youtube_container_fold'>
-                {/* <iframe
-                    width={260}
-                    height={156}
-                    src='https://www.youtube.com/embed/frIkqkshgx8?si=VbBCLbfP5fJdnjN2'
-                    title='YouTube video player'
-                    frameBorder='0'
-                    allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                    allowFullScreen
-                ></iframe> */}
-
                 <video id="videoPlayer" width="650" controls muted="muted" autoPlay>
                     <source src="/successfulcompany.mp4" type="video/mp4" />
                 </video>
-            </div>
+            </div> */}
         </div>
     );
 };

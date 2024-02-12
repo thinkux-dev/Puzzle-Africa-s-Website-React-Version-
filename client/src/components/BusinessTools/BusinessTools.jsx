@@ -3,7 +3,7 @@ import './BusinessTools.css'
 
 const BusinessTools = () => {
   return (
-    <div>
+    <div className='businesstool-margin'>
       <div className="business_tools flexCenter flex-container">
         <div className="business_puzzle">
           {/* left Side */}
