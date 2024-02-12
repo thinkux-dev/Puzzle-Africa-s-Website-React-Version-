@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 .hero-container h1  {

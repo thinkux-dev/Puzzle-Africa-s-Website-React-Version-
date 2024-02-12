@@ -12,7 +12,7 @@ const Hero = () => {
                         <span className='heading_1'>Powerful With Puzzle</span>
                     </h1>
 
-                    <h3>Business In Africa Can Be, Tough, We Make It Easy</h3>
+                    <h3>Business In Africa Can Be Tough, We Make It Easy</h3>
 
                     <div className='business_community'>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSe_wpm09k2uTQ2X_-ADw5R_joers34JnQVHTLzJ61QhcqVTjw/viewform'>

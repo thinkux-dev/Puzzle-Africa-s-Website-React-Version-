@@ -126,7 +126,7 @@
 .track_sales{
   display: flex;
   justify-content: center;
-  gap: 12rem;
+  gap: 4rem;
   align-items: center;
 }
 
@@ -203,7 +203,7 @@
 .Business_Education{
   display: flex;
   justify-content: center;
-  gap: 9rem;
+  gap: 4rem;
   align-items: center;
 }
 
@@ -259,7 +259,7 @@
 .Business_Registration{
   display: flex;
   justify-content: center;
-  gap: 9rem;
+  gap: 4rem;
   align-items: center;
 }
 
