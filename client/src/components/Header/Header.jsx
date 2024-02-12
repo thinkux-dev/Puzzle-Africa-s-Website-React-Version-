@@ -34,7 +34,7 @@ const Header = () => {
           <section className='h-wrapper'>
               <div className='flexCenter paddings innerWidth h-container'>
                 <NavLink to='/'>
-                  <img src='./img/PLogo-png.png' alt='logo' width={150} className="nav_logo"/>
+                  <img src='./img/curved puzzle logo.png' alt='logo' width={150} className="nav_logo"/>
                 </NavLink>
                   
                   <OutsideClickHandler

@@ -154,3 +154,23 @@
     display: none;
   }
 }
+
+@media screen and (device-width: 1024px) and (device-height: 1366px){
+  .hero-container{
+    margin-top: -30rem;
+  }
+
+  .youtube_container{
+    margin-top: -63.5rem;
+  }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 600px){
+  .hero-container{
+    margin-top: 15rem;
+  }
+
+  .youtube_container{
+    margin-top: -17.5rem;
+  }
+}
