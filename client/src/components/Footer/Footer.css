@@ -1194,10 +1194,6 @@
   }
 }
 
-
-
-
-
 @media only screen 
   and (min-device-width: 1024px) 
   and (max-device-width: 1024px) 
@@ -2113,6 +2109,10 @@
 }
 
 @media only screen and (device-width: 540px) and (device-height: 720px){
+  .business_tools{
+    margin-top: 2rem;
+  }
+
   .hero-container .youtube_container {
     margin-left: auto;
     margin-right: auto;
@@ -4629,6 +4629,48 @@
 
 
 @media only screen and (device-width: 412px) and (device-height: 915px){
+  .hero-container{
+    margin-top: 2rem;
+  }
+
+  .hero-container .youtube_container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    margin-top: 1rem;
+  }
+
+  .youtube_container_fold{
+    display: none;
+  }
+
+  .businesstool-margin{
+    margin-top: -33.5rem;
+  }
+
+  .business_puzzle img {
+    margin-left: -6.5rem;
+  }
+
+  .section_container .your_business_mobile {
+    margin-right: 0.5rem;
+  }
+
+  .main-footer .grid_container {
+    margin-top: -29rem;
+  }
+
+  /* Bottom footer */
+  .bottom-footer{
+    margin-top: -29rem;
+  }
+
+  .bottom-footer-elements .Copyright{
+    margin-left: 5.3rem;
+  }
+}
+
+@media only screen and (device-width: 412px) and (device-height: 914px){
   .hero-container{
     margin-top: 2rem;
   }

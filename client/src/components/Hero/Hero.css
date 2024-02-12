@@ -80,7 +80,7 @@
   cursor: pointer;
 } */
 
-@media screen and (min-width: 1280px) and (max-width: 1280px){
+@media screen and (device-width: 1280px){
   .youtube_container{
     margin-left: 15rem;
     max-width: 800px;
@@ -93,7 +93,7 @@
 
 
 /* ipad Mini */
-@media screen and (min-width: 768px) and (max-width: 768px){
+@media screen and (device-width: 768px){
   .hero-container{
     display: block;
     justify-content: center;
@@ -116,23 +116,34 @@
     justify-content: center;
   }
 
+  .businesstool-margin{
+    margin-top: -15.5rem;
+  }
+
   .youtube_container_fold{
     display: none;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1024px){
-  .hero-container{
-    margin-top: -20rem;
-  }
+  /* .hero-wrapper{
+    margin-top: -300rem;
+  } */
 
-  .youtube_container{
-    margin-top: -58rem;
-    margin-left: 6.6rem;
+  .hero-container h1{
+    margin-top: -15rem;
+  }
+  
+  .hero-container .youtube_container{
+    margin-top: 2rem;
   }
 
   .youtube_container_fold{
     display: none;
+  }
+
+  .businesstool-margin{
+    margin-top: 5rem;
   }
 }
 

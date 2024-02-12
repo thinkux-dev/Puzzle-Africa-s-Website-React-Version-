@@ -326,6 +326,10 @@
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1280px){
+  .business_tools{
+    margin-top: -3rem;
+  }
+
   /* Track Sales */
   .track_sales{
     gap: 3rem;
@@ -440,7 +444,11 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1024px){
+@media screen and (device-width: 1024px){
+  .business_tools{
+    margin-top: -45.5rem;
+  }
+
   .business_tools.flex-container{
     margin-right: -5rem;
   }
@@ -584,7 +592,11 @@
   }
 }
 
-@media screen and (min-width: 820px) and (max-width: 820px){
+@media screen and (device-width: 820px){
+  .business_tools{
+    margin-top: -22.5rem;
+  }
+
   .business_tools.flex-container{
     margin-right: -3rem;
   }
@@ -851,7 +863,11 @@
   }
 }
 
-@media screen and (min-width: 912px) and (max-width: 912px){
+@media screen and (device-width: 912px){
+  .business_tools{
+    margin-top: -33rem;
+  }
+
   .business_tools.flex-container .business_puzzle{
     gap: 5rem;
     margin-left: -10rem;
