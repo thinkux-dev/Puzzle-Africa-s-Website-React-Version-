@@ -40,10 +40,10 @@ const Footer = () => {
         <div className="container footer-container contact">
           <div className="grid_container">
             <div className="whitelogo">
-              <img src="./img/WhitePLogo.png" alt="" width={200}/>
+              <img src="./img/White curved logo.png" alt="" width={200}/>
             </div>
             <div className="whitelogo-mobile">
-              <img src="./img/WhitePLogo.png" alt="" width={150}/>
+              <img src="./img/White curved logo.png" alt="" width={150}/>
             </div>
             
             <div className="moblie_flex_container">
