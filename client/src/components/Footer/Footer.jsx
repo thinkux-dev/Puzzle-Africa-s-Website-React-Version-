@@ -76,7 +76,7 @@ const Footer = () => {
                     name="senderEmail" 
                     type="email" 
                     onChange={e => setEmail(e.target.value)}
-                    placeholder="email@email.com" 
+                    placeholder="email@email.com"
                     id='email'/>
                     <button 
                       type="submit" 

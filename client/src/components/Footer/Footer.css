@@ -88,6 +88,8 @@
   margin-right: 8px;
   color: var(--primary-color-dark);
   background: var(--border-color-light-purple);
+  border: none;
+  outline: none;
 }
 
 .subscribe-input input:focus {
