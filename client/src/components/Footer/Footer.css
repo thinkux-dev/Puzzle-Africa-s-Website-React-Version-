@@ -338,6 +338,7 @@
     font-size: 0.5rem;
     font-weight: lighter;
     white-space: nowrap;
+    margin-left: -0.7rem;
   }
 
   .hero-container .business_community{
@@ -4196,6 +4197,10 @@
     margin-right: 2rem;
   }
 
+  .track_sales{
+    margin-top: 28rem;
+  }
+
   .track_sales .leftside h1{
     font-size: 20px;
   }
@@ -5056,7 +5061,7 @@
 
   /* Track sales */
   .track_sales{
-    margin-top: 28rem;
+    margin-top: 25rem;
   }
 
   .track_sales .leftside{

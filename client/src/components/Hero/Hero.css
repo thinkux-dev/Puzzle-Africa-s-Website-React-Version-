@@ -1,6 +1,6 @@
-/* .hero-separator{
-  margin-top: -4rem;
-} */
+.hero-separator{
+  margin-top: 2rem;
+}
 
 .hero-wrapper{
   color: var(--primary-color-dark);
@@ -43,6 +43,7 @@
   justify-content: center;
   margin-top: 1rem;
   cursor: pointer;
+  margin-right: -1.2rem;
 }
 
 .youtube_container_fold{
