@@ -1,21 +1,19 @@
 import React from 'react'
-
-
-import '../App.css'
-import Header from '../components/Header/Header'
+// import '../App.css'
 import Hero from '../components/Hero/Hero';
 import BusinessTools from '../components/BusinessTools/BusinessTools'
 import BusinessEducation from '../components/BusinessEducation/BusinessEducation'
 import ServicePartners from '../components/ServicePartners/ServicePartners'
-import Footer from '../components/Footer/Footer'
+// import FeedbackButton from '../components/FeedbackButton/FeedbackButton'
 
 const Website = () => {
   return (
     <div>
-      <Hero/>
-      <BusinessTools/>
-      <BusinessEducation/>
-      <ServicePartners/>
+        {/* <FeedbackButton/> */}
+        <Hero/>
+        <BusinessTools/>
+        <BusinessEducation/>
+        <ServicePartners/>
     </div>
   )
 }

@@ -48,7 +48,7 @@ const Header = () => {
                             The Mart<span>coming soon</span>
                         </a>
                         <a href='' className="business_payments">
-                            Business Payments<span>coming soon</span>
+                            Puzzle Business<span>New!!!</span>
                         </a>
                         <NavLink to="/FAQ">FAQ</NavLink>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSe_wpm09k2uTQ2X_-ADw5R_joers34JnQVHTLzJ61QhcqVTjw/viewform'>

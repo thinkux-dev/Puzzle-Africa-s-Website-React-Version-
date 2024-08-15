@@ -14,7 +14,7 @@ const Footer = () => {
   const sendMail = (event) => {
     event.preventDefault(); // Prevent default form submission behavior
     if(recipient_email){
-      axios.post('https://puzzle-africa-s-website-react-version.vercel.app/subscribe', {
+      axios.post('http://localhost:5000/subscribe', {
         recipient_email
       }).then(() => {
         toast.success("Successfully Subscribed");
@@ -54,6 +54,7 @@ const Footer = () => {
                     <li className="list_children FAQ"><NavLink to="/FAQ">FAQ</NavLink></li>
                     <li className="list_children">Businesses</li>
                     <li className="list_children privacy"><NavLink to="/privacy/policy">Privacy Policy</NavLink></li>
+                    <li className="list_children privacy"><NavLink to="/refund/policy">Refund Policy</NavLink></li>
                   </ul>
                 </ul>
               </div>

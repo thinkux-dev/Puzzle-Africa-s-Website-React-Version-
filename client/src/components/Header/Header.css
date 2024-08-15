@@ -41,6 +41,24 @@
   transform: translateX(-50%);
   white-space: nowrap;
 }
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.h-container .h-menu .business_payments span {
+  color: red;
+  animation: blink 1s infinite;
+}
+
 .menu-icon{
   display: none;
 }
@@ -84,6 +102,7 @@
   .h-container .h-menu .business_payments span{
     text-align: left;
     margin-left: -1.5rem;
+    color: red;
   }
 }
 
@@ -182,5 +201,6 @@
   .h-container .h-menu .business_payments span{
     text-align: left;
     margin-left: -1.5rem;
+    color: red;
   }
 }

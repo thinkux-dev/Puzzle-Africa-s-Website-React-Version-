@@ -1,0 +1,215 @@
+.Auth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 4rem;
+  position: relative;
+}
+
+.Auth > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* left side */
+.a-left{
+  gap: 1rem;
+}
+
+.a-left > img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.Webname > h1{
+  margin-left: -0.1rem;
+  font-size: 3rem;
+  background-color: var(--primary-color);
+
+  /* Create the gradient */
+  background-image: linear-gradient(98.63deg,  #6F00B4 0%, #FDD400 100%);
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* -moz-background-clip: text; */
+  -moz-text-fill-color: transparent;
+}
+
+.Webname > h6{
+  font-size: 0.85rem;
+}
+
+.infoForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.infoInput{
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+}
+
+.infoForm > div {
+  display: flex;
+  gap: 1rem;
+  height: 2rem;
+  /* width: 90%; */
+}
+
+.infoButton{
+  width: 6rem;
+  height: 2rem;
+  align-self: flex-end;
+}
+
+.authForm{
+  background-color: rgba(40, 52, 62, 0.07);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.authForm > div {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.SignupLoginHere:hover {
+  color: #6F00B4;
+}
+
+.Authbutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.5rem;
+  background: linear-gradient(98.63deg, #6F00B4 100%, #6F00B4 10%);
+  color: white;
+  transition: all 200ms ease-out;
+}
+
+.Authbutton:hover{
+  cursor: pointer;
+  color: #6F00B4;
+  background: transparent;
+  border: 2px solid #6F00B4
+}
+
+.Authbutton:disabled {
+  background: silver;
+  pointer-events: none;
+}
+
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #a6ddf0;
+  filter: blur(72px);
+}
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+/* .loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+/* .loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1775ee;
+  margin-bottom: 10px;
+} */
+
+/* .loginDesc {
+  font-size: 24px;
+} */
+
+.loginBox{
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+/* .loginButton{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+} */
+
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+}
+
+.loginRegisterButton{
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* .password{
+  margin-top: -15rem;
+} */

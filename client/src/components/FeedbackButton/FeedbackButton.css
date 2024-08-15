@@ -1,0 +1,17 @@
+.feedback-button {
+  position: fixed;
+  bottom: 200px; /* Adjust the distance from the bottom */
+  right: 20px; /* Adjust the distance from the right */
+  z-index: 999; /* Ensure it stays above other content */
+  background-color: var(--primary-color); /* Example color */
+  color: #fff; /* Example text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 1s ease-in-out;
+}
+
+.feedback-button:hover {
+  background-color: var(--primary-color-dark); /* Example color on hover */
+}
