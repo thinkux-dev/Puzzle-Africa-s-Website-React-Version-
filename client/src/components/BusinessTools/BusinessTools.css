@@ -995,3 +995,71 @@
     margin-right: -13rem;
   }
 }
+
+@media screen and (min-width: 760px) and (max-width: 764px) {
+  /* Track Sales */
+  .track_sales {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .track_sales .leftside {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .track_sales .leftside h1,
+  .track_sales .leftside .puzzle_values,
+  .track_sales .leftside .waitlist {
+    margin-left: 0;
+  }
+
+  .track_sales img {
+    margin-top: 2rem;
+    margin-right: 0;
+  }
+
+  /* Business Education */
+  .Business_Education {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Business_Education img {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+
+  .Business_Education .leftside {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .Business_Education .leftside h1,
+  .Business_Education .leftside p,
+  .Business_Education .leftside .Start_Learning {
+    margin-left: 0;
+  }
+
+  /* Register Business Section */
+  .Business_Registration {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Business_Registration .leftside {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .Business_Registration .leftside h1,
+  .Business_Registration .leftside .Registrations,
+  .Business_Registration .leftside .Start_Learning {
+    margin-left: 0;
+  }
+
+  .Business_Registration img {
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+}
