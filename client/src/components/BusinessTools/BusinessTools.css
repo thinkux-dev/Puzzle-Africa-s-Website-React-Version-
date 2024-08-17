@@ -996,7 +996,7 @@
   }
 }
 
-@media screen and (min-width: 760px) and (max-width: 764px) {
+@media screen and (min-width: 760px) and (max-width: 1239px) {
   /* Track Sales */
   .track_sales {
     flex-direction: column;
