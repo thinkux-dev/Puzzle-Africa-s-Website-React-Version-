@@ -69,7 +69,19 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <form method="post" onSubmit={sendMail} ref={formRef}>
+              <div className="quick_link_header">
+                <ul className='quick_link_ul'>
+                  <li className="list_header quick_link">Support Info</li>
+                  <ul className='inner-ul'>
+                    <li className="list_children about">Phone: 08169792678 OR 09169235078</li>
+                    <li className="list_children IG">
+                      <a href="mailto:puzzleafrica@gmail.com">puzzleafrica@gmail.com</a>
+                    </li>
+                  </ul>
+                </ul>
+              </div>
+
+              {/* <form method="post" onSubmit={sendMail} ref={formRef}>
                 <div className="subscribe-input">
                   <ul>
                     <li className="list_header Sub">Subscribe</li>
@@ -85,7 +97,7 @@ const Footer = () => {
                     >&rarr;</button>
                   </ul>
                 </div>
-              </form>
+              </form> */}
             </div>
             
           </div> 
